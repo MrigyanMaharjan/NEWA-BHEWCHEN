@@ -17,5 +17,8 @@
         ORDER FOOD FROM THE WORLD'S #1 NEWARI RESTAURANT
     <a class="btn">Get Started</a>
     </div>
+    <section class="about-us">
+        This is about us section
+    </section>
 </body>
 </html>
