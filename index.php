@@ -14,14 +14,14 @@
     <section class="blob"></section>
     <section class="blob2"></section>
     <div class="hero">
-        ORDER FOOD FROM THE WORLD'S #1 NEWARI RESTAURANT
+        <span style="font-weight:800; font-size:5vh; padding-left:20px; width:35vw">ORDER FOOD FROM THE WORLD'S #1 NEWARI RESTAURANT</span>
     <a class="btn">Get Started</a>
     <img class="blob3" style="filter: blur(0px); background:transparent; border-radius:0px; height:20vh" src="./assets/nepali-ethnic-food.png" alt="">
     </div>
-    <section class="menu">
+    <section id="menu" class="menu">
         This is our menu
     </section>
-    <section class="about-us">
+    <section id="about-us" class="about-us">
         This is about us section
     </section>
 </body>

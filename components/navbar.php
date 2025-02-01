@@ -1,8 +1,8 @@
 <nav>
     <img class="logo" src="./assets/f7a1e5da-fcb3-446b-a411-e31f58d79756.jpeg" alt="">
     <section class="nav-btn">
-        <a class="button" href="">MENU</a>
-        <a class="button" href="">ABOUT US</a>
+        <a class="button" href="#menu">MENU</a>
+        <a class="button" href="#about-us">ABOUT US</a>
         <a class="button" href="">LEAR MORE</a>
     </section>
     <section class="signin-cont">
