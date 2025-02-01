@@ -9,13 +9,14 @@ body{
 }
 nav{
     height: 18vh;
+    
     display: flex;
     justify-content:space-between;
     padding-left: 20px;
     padding-right: 20px;
     align-items:center;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
     background: burlywood;
     gap: 10px;
 }
@@ -47,10 +48,10 @@ nav{
     left: 0;
     z-index: 10;
     border-radius: 20px;
-    transform: scaleX(0); /* Initially scale the line to 0 */
-    transition: transform 0.1s ease-in-out; /* Apply transition only on transform */
+    transform: scaleX(0); 
+    transition: transform 0.1s ease-in-out; 
 }
 
 .button:hover::after {
-    transform: scaleX(1); /* Scale the line to full width on hover */
+    transform: scaleX(1); 
 }
