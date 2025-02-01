@@ -11,5 +11,11 @@
     <?php 
     include "./components/navbar.php"
     ?>
+    <section class="blob"></section>
+    <section class="blob2"></section>
+    <div class="hero">
+        ORDER FOOD FROM THE WORLD'S #1 NEWARI RESTAURANT
+    <a class="btn">Get Started</a>
+    </div>
 </body>
 </html>

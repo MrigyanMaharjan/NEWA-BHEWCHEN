@@ -2,17 +2,71 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
+:root {
+    --primary-color:rgb(15, 15, 15); 
+    --Primary-red:#F7302F ;
+  }
 body{
-    font-family: sans-serif;
     color: white;
     background: rgb(15, 15, 15);
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:85vh;
+    color:white ;
+    width: 100%;
+    gap: 10px;
+    font-size: large;
+}
+.blob{
+    height: 35vh;
+    width: 35vh;
+    filter: blur(10rem);
+    right: 25%;
+    z-index: -1;
+    top: 50%;
+    background: var(--Primary-red);
+    position: absolute;
+    border-radius: 100%;
+}
+.blob2{
+    height: 35vh;
+    width: 35vh;
+    filter: blur(10rem);
+    left: 25%;
+    z-index: -1;
+    top: 50%;
+    background: var(--Primary-red);
+    position: absolute;
+    border-radius: 100%;
+}
+.btn{
+    background: var(--Primary-red);
+    color: #1C1C1C;
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+    border:2px solid transparent;
+    &:hover{
+        scale: 1.05;
+        cursor: pointer;
+        background: transparent;
+        color: #F7302F;
+        border-color: var(--Primary-red);
+    }
+}
 nav{
-    height: 18vh;
+    height: 15vh;
     display: flex;
     justify-content:space-between;
-    padding-left: 20px;
+    padding-left: 90px;
     padding-right: 20px;
     align-items:center;
     flex-direction: row;
@@ -36,6 +90,21 @@ nav{
     color: gray;
     transition: all 0.3s ease-in-out;
     position: relative;
+    &:hover{
+        color: white;
+    }
+}
+.signin{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background:var(--Primary-red);
+    position: relative;
+    transition: all 0.13s ease-in-out;
+}
+.signin:hover{
+    scale: 1.08;
 }
 
 .button::after {
@@ -55,3 +124,9 @@ nav{
 .button:hover::after {
     transform: scaleX(1); 
 }
+ .signin-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
