@@ -3,7 +3,7 @@
     <section class="nav-btn">
         <a class="button" href="">MENU</a>
         <a class="button" href="">ABOUT US</a>
-        <a class="button" href="">TAB</a>
+        <a class="button" href="">LEAR MORE</a>
     </section>
     <section class="signin-cont">
         <a class="button" href="">Log in</a>

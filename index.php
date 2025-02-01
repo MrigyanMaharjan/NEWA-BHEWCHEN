@@ -16,7 +16,11 @@
     <div class="hero">
         ORDER FOOD FROM THE WORLD'S #1 NEWARI RESTAURANT
     <a class="btn">Get Started</a>
+    <img class="blob3" style="filter: blur(0px); background:transparent; border-radius:0px; height:20vh" src="./assets/nepali-ethnic-food.png" alt="">
     </div>
+    <section class="menu">
+        This is our menu
+    </section>
     <section class="about-us">
         This is about us section
     </section>
