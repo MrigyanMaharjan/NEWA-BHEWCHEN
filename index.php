@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newa Bhewchen | #1 Online Newari Restaurant?</title>
-    <link rel="icon" href="./assets/DALL·E 2025-02-01 12.50.06 - A vibrant and eye-catching logo for a Newari food business called 'Newa Bhwechen'. The design should incorporate traditional Newar symbols, such as a .webp">
+    <link rel="icon" href="./assets/f7a1e5da-fcb3-446b-a411-e31f58d79756.jpeg">
 </head>
 <body>
     <?php 

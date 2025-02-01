@@ -6,10 +6,10 @@
 body{
     font-family: sans-serif;
     color: white;
+    background: rgb(15, 15, 15);
 }
 nav{
     height: 18vh;
-    
     display: flex;
     justify-content:space-between;
     padding-left: 20px;
@@ -17,7 +17,7 @@ nav{
     align-items:center;
     flex-direction: row;
     width: 100vw;
-    background: burlywood;
+   background: #1C1C1C;
     gap: 10px;
 }
 .nav-btn{
@@ -33,14 +33,14 @@ nav{
     text-decoration: none;
     padding: 15px;
     border-radius: 10px;
-    color: white;
+    color: gray;
     transition: all 0.3s ease-in-out;
     position: relative;
 }
 
 .button::after {
     content: '';
-    background: black;
+    background: rgb(181, 25, 25);
     height: 3px;
     width: 100%;
     position: absolute;
