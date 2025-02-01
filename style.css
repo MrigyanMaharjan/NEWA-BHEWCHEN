@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+nav{
+    height: 18vh;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items:center;
+    flex-direction: row;
+    width: 100%;
+    background: burlywood;
+    gap: 10px;
+}
+.nav-btn{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+
+}
+.logo{
+    height: 100%;
+}
+.button {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.button::after {
+    content: '';
+    background: black;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    border-radius: 20px;
+    transform: scaleX(0); /* Initially scale the line to 0 */
+    transition: transform 0.1s ease-in-out; /* Apply transition only on transform */
+}
+
+.button:hover::after {
+    transform: scaleX(1); /* Scale the line to full width on hover */
+}
